@@ -6,7 +6,6 @@ if(xhr.status == 200){
 		//save JSON data
 		var data = JSON.parse(xhr.responseText);
 		var locationSection = document.querySelector('#blog');
-		console.log(xhr.status);
 		if(locationSection){
 
 			var locations = '';
