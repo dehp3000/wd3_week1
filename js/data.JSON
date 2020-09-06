@@ -8,13 +8,10 @@
 			"state":"South Carolina",
 			"description":"Along the far-reaching stretch of Grand Strand coastline, Myrtle Beach State Park sits nestled among oceanfront maritime forest. A quiet, and surprisingly green, escape from the otherwise bustling beach, the park provides educational opportunities, a nature trail and some of the best surf fishing South Carolina has to offer as well as stunning ocean views and another great fishing spot on Myrtle Beach pier.",
 			"rating":4,
-<<<<<<< HEAD
 			"status":"www.test.com",
 			"more":"https://southcarolinaparks.com/myrtle-beach",
-=======
 			"status":"Open",
 			"more":"https://www.southcarolinaparks.com/myrtle-beach"
->>>>>>> 4a2e13aece0a5abead986623b4883c26398ae9bd
 		},
 		{
 			"id":2,
