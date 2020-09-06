@@ -13,7 +13,7 @@
 		{
 			"id": 2,
 			"location": "Brittlebank Park",
-			"image": "https://dehp3000.github.io/wd3_week1/images/Brittlebank_Park_Banner-3.JPG",
+			"image": "http://www.economies-of-scale.com/FSO/WD3/images/Brittlebank_Park_Banner-3.JPG",
 			"city": "Charleston",
 			"state": "South Carolina",
 			"description": "Brittlebank Park is a ten-acre park located between Lockwood Boulevard and the Ashley River in Charleston, South Carolina near Gadsden Creek",
@@ -24,7 +24,7 @@
 		{
 			"id": 3,
 			"location": "North Myrtle Beach Park and Sports Complex",
-			"image": "",
+			"image": "http://www.economies-of-scale.com/FSO/WD3/images/NMB_complex.png",
 			"city": "North Myrtle Beach",
 			"state": "South Carolina",
 			"description": "Pine-shaded recreation area offering baseball & soccer fields for kids & college-level players.  Nearby is Go Ape treeline Adventure.  There are also wlking trails and water activities.",
