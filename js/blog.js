@@ -13,8 +13,8 @@ xhr.onload = function(){
 			locations+='<article>';
 			locations+='<p class="thumbnail"><img src ="'+data.locations[i].image+
 			'"alt="'+data.locations[i].location+'"></p>';
-			locations+= '<p>'+data.locations[i].description+'</p>';
-			locations +='<p><a href="www.test.com">Load More</a></p>';
+			locations+= '<p>'+data.locations[i].description;
+			locations +='<a href="www.test.com">More info</a></p>';
 			console.log("more = "+data.locations[i].status);
 			//<input type="button" onclick="location.href='https://google.com';" value="Go to Google" />
 			locations+='</article>';
