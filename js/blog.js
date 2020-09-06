@@ -14,7 +14,7 @@ xhr.onload = function(){
 			locations+='<p class="thumbnail"><img src ="'+data.locations[i].image+
 			'"alt="'+data.locations[i].location+'"></p>';
 			locations+= '<p>'+data.locations[i].description+'</p>';
-			//locations +='<p><button onclick="location.href ='+data.locations[i].more+';">Load More</button></p>';
+			locations +='<p><button onclick="location.href ='+data.locations[i].more+';">Load More</button></p>';
 			console.log("more = "+data.locations[i].status);
 			//<input type="button" onclick="location.href='https://google.com';" value="Go to Google" />
 			locations+='</article>';
