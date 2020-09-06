@@ -12,13 +12,10 @@ xhr.onload = function(){
 		var locations = '';
 		for(var i = 0; i < data.locations.length; i++){
 			locations+='<article>';
-			console.log(locations[i].city);
-			locations+='<p><h3>'+locations[i].location+'</h3></p>';
+			locations+='<p><h3>'+data.locations[i].location+'</h3></p>';
 			locations+='<p class="thumbnail"><img src ="'+data.locations[i].image+'" alt="'+data.locations[i].location+'"></p>';
-			//console.log(data.locations[i].image);
 			locations+= '<p>'+data.locations[i].description;
 			locations +='<a href="https://southcarolinaparks.com/">More info</a></p>';
-			//console.log("more = "+data.locations[i].status);
 			//<input type="button" onclick="location.href='https://google.com';" value="Go to Google" />
 			locations+='</article>';
 
