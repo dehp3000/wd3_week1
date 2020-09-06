@@ -15,10 +15,10 @@ xhr.onload = function(){
 			console.log(locations[i].location);
 			locations+='<p><h1>'+locations[i].location+'</h></p>';
 			locations+='<p class="thumbnail"><img src ="'+data.locations[i].image+'" alt="'+data.locations[i].location+'"></p>';
-			console.log(data.locations[i].image);
+			//console.log(data.locations[i].image);
 			locations+= '<p>'+data.locations[i].description;
 			locations +='<a href="https://southcarolinaparks.com/">More info</a></p>';
-			console.log("more = "+data.locations[i].status);
+			//console.log("more = "+data.locations[i].status);
 			//<input type="button" onclick="location.href='https://google.com';" value="Go to Google" />
 			locations+='</article>';
 
