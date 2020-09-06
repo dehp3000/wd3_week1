@@ -3,26 +3,22 @@
 		{
 			"id":1,
 			"location":"Myrtle Beach State Park",
-			"image":"http://github.io.com/dehp3000/wd3_week1/master/images/Myrtle-Beach-State-Park-South-Carolina.jpg",
+			"image":"http://dehp3000.github.io/wd3_week1/images/Myrtle-Beach-State-Park-South-Carolina.jpg",
 			"city":"Myrtle Beach",
 			"state":"South Carolina",
 			"description":"Along the far-reaching stretch of Grand Strand coastline, Myrtle Beach State Park sits nestled among oceanfront maritime forest. A quiet, and surprisingly green, escape from the otherwise bustling beach, the park provides educational opportunities, a nature trail and some of the best surf fishing South Carolina has to offer as well as stunning ocean views and another great fishing spot on Myrtle Beach pier.",
 			"rating":4,
-			"status":"www.test.com",
-			"more":"https://southcarolinaparks.com/myrtle-beach",
-			"status":"Open",
-			"more":"https://www.southcarolinaparks.com/myrtle-beach"
+			"status":"Open"
 		},
 		{
 			"id":2,
 			"location":"Brittlebank Park",
-			"image":"https://github.io.com/dehp3000/wd3_week1/master/images/Brittlebank_Park_Banner-3.JPG",
+			"image":"",
 			"city":"Charleston",
 			"state":"South Carolina",
 			"description":"Brittlebank Park is a ten-acre park located between Lockwood Boulevard and the Ashley River in Charleston, South Carolina near Gadsden Creek",
 			"rating":5,
-			"status":"",
-			"more":"",
+			"status":"Open"
 		},
 		{
 			"id":3,
@@ -32,8 +28,7 @@
 			"state":"South Carolina",
 			"description":"Pine-shaded recreation area offering baseball & soccer fields for kids & college-level players.  Nearby is Go Ape treeline Adventure.  There are also wlking trails and water activities.",
 			"rating":5,
-			"status":"",
-			"more":"",
+			"status":"Open"
 		}
 	]
 }
