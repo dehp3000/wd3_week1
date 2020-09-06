@@ -24,5 +24,5 @@ xhr.onload = function(){
 }
 
 //call ajax
-xhr.open('GET','https://raw.githubusercontent.com/dehp3000/wd3_week1/master/js/data.JSON',true); 
+xhr.open('GET','https://dehp3000.github.io/wd3_week1/js/data.JSON',true); 
 xhr.send(null);
