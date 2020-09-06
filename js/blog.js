@@ -13,9 +13,8 @@ if(xhr.status == 200){
 				locations+='<article>';
 				locations+='<p class="thumbnail"><img src ="'+data.locations[i].image+'" alt="'+data.locations[i].location+'"></p>';
 				locations+='<p><h3>'+data.locations[i].location+'</h3></p>';
-				locations+= '<p>'+data.locations[i].description;
+				//locations+= '<p><h4 class ="location">'+data.locations[i].city+'</h4></p>';
 				locations +='<a href="https://southcarolinaparks.com/">More info</a></p>';locations+='</article>';
-
 			}
 			locationSection.querySelector('h2').insertAdjacentHTML('afterend',locations);
 		}
