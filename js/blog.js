@@ -21,7 +21,7 @@ xhr.onload = function(){
 		}
 		locationSection.querySelector('h2').insertAdjacentHTML('afterend',locations);
 	}
-}
+};
 
 //call ajax
 xhr.open('GET','https://dehp3000.github.io/wd3_week1/js/data.JSON',true); 
