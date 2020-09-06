@@ -12,7 +12,7 @@ xhr.onload = function(){
 		var locations = '';
 		for(var i = 0; i < data.locations.length; i++){
 			locations+='<article>';
-			console.log(data.locations[i].location);
+			console.log(data.locations[i]);
 			locations+='<p class="thumbnail"><img src ="'+data.locations[i].image+'" alt="'+data.locations[i].location+'"></p>';
 			locations+='<p>'+data.locations[i].location+'</p>';
 			locations+= '<p>'+data.locations[i].description;
