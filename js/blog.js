@@ -22,5 +22,5 @@ if(xhr.status == 200){
 	};
 };
 //call ajax
-xhr.open('GET','https://dehp3000.github.io/wd3_week1/js/data.JSON',true); 
+xhr.open('GET','https://dehp3000.github.io/wd3_week1/js/data.json',true); 
 xhr.send(null);
